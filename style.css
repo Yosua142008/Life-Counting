@@ -1,0 +1,81 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f0f4f8;
+  background-image: url(urban-vintage-78A265wPiO4-unsplash.jpg); /* Ganti dengan path gambar Anda */
+  background-size: cover; /* Pastikan gambar menutupi seluruh layar */
+  background-position: center;
+  background-repeat: no-repeat; /* Mencegah gambar diulang */
+  background-attachment: fixed; /* Efek paralaks */
+  color: white;
+}
+
+h1 {
+  color: #22272c;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  background: white transparent 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+img.logo {
+  display: none; /* Ganti display: 0; menjadi display: none; */
+  margin: 0 auto 20px;
+  width: 0 auto; /* Atur lebar sesuai kebutuhan */
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+button {
+  padding: 12px;
+  margin-bottom: 15px;
+  width: 94%; /* Menggunakan 100% agar input memenuhi lebar form */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  width: 403px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.result {
+  margin-top: 0 auto;
+  padding: 0;
+  background-color: transparent;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: none; /* Awalnya disembunyikan */
+}
